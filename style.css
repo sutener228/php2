@@ -1,0 +1,33 @@
+body{
+    font-family: Arial;
+    font-size: 20px;
+}
+.flex-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+li,ul{
+    list-style: none;
+}
+
+.listColor{
+    color:purple;
+}
+
+.listVeget{
+    color: green;
+}
+
+.listNut{
+    color:firebrick;
+}
+
+.list_item{
+    margin-bottom: 10px;
+}
+.list_item:last-child{
+    margin: 0;
+}
